@@ -1,4 +1,3 @@
-// actions.js
 import {
   ADD_TODO,
   TOGGLE_TODO,
@@ -8,7 +7,9 @@ import {
   FILTER_TODOS,
   MARK_ALL_COMPLETED,
   UPDATE_SEARCH_TERM,
-} from './actionTypes';
+} from "./actionTypes";
+
+// Define the function action to be used in the to-do List
 
 export const addTodo = (text) => ({
   type: ADD_TODO,
